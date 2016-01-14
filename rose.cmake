@@ -21,7 +21,7 @@ file(WRITE "${CTEST_BINARY_DIRECTORY}/CMakeCache.txt" "
   enable-opencl:BOOL=OFF
   enable-php:BOOL=OFF
   enable-rosehpct:BOOL=OFF
-  disable-binary-analysis-tests:BOOL=OFF
+  disable-binary-analysis-tests:BOOL=ON
 ")
 
 ctest_start(Experimental)
